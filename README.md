@@ -5,17 +5,14 @@
 (Software Requirements Specification)
 
 **9th-Oct-2023**
-**
 
 **Submitted to: Aruvi**    
-**
 
 
-` `**Submitted by: Sandhya Shevatre**
+**Submitted by: Sandhya Shevatre**
 
 
-`   `**Prodapt  University, Hyderabad**
-**
+**Prodapt  University, Hyderabad**
 
 
 **Table of Contents**
@@ -203,6 +200,19 @@ To ensure the confidentiality of sensitive data transmitted between the frontend
 - Secure Communication: All data transferred between the frontend and backend will be transmitted over secure, encrypted connections using HTTPS (SSL/TLS) protocols.
 - End-to-End Encryption: Sensitive information, such as user credentials and authentication tokens, will be encrypted before transmission, making it nearly impossible for unauthorized parties to intercept or decipher the data in transit.
 - These security measures, including JWT-based authentication and data encryption, will be implemented rigorously to safeguard user data and protect the integrity and security of the Wireless Inventory Number Management system.
+
+
+## Getting Started
+
+To get started with the Wireless Inventory Number Management system, follow these steps:
+1. Clone the repository.
+2. Set up the backend according to the provided instructions.
+3. Set up the frontend and configure the connection to the backend.
+4. Deploy the system as per the deployment instructions.
+
+## Contributing
+
+Contributions to this project are welcome. Please follow the contribution guidelines provided in the repository.
 
 
 
