@@ -56,7 +56,7 @@ The system is comprised of a Java Spring Boot backend and a React.js frontend, f
 
 - **Backend:** Java 11, Spring Boot 2.7.13
 - **Frontend:** React.js
-- **Database:** MySQL (or specify your preferred database technology)
+- **Database:** MySQL 
 
 ## Functional Requirements
 
