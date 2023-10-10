@@ -41,15 +41,6 @@
 ||<p>10\.1. Deployment Architecture</p><p>10\.2. Deployment Instruction</p>|
 
 
-
-
-
-
-
-
-
-
-
 **1. Introduction**
 
 **1.1 Purpose**
@@ -111,7 +102,8 @@ Responsiveness: The system should exhibit responsiveness, ensuring that actions 
 
 **4.2 Security**
 
-Security is of paramount importance in the Wireless Inventory Number Management system. It encompasses several measures to safeguard sensitive data and control access to the system effectively.
+Security is of paramount importance in the Wireless Inventory Number Management system. 
+It encompasses several measures to safeguard sensitive data and control access to the system effectively.
 
 ***Authentication and Authorization***
 
@@ -172,11 +164,11 @@ The system will define RESTful API endpoints with specifications covering:
 
 Security measures will be implemented, including:
 
-Authentication: Users will be required to authenticate themselves before accessing the system.
+-Authentication: Users will be required to authenticate themselves before accessing the system.
 
-Authorization: Authorization mechanisms will control user access based on defined roles and permissions.
+-Authorization: Authorization mechanisms will control user access based on defined roles and permissions.
 
-Data Encryption: Sensitive data transmission will be encrypted to protect against unauthorized access.
+-Data Encryption: Sensitive data transmission will be encrypted to protect against unauthorized access.
 
 **9. Testing**
 
