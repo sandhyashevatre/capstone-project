@@ -205,7 +205,7 @@ To get started with the Wireless Inventory Number Management system, follow thes
 Contributions to this project are welcome. Please follow the contribution guidelines provided in the repository.
 
 
-## FAQ :  Essential to ask questions that helps clarify the project requirements
+## Q & A :  Essential to ask questions that helps clarify the project requirements
 
 **Project Objective:**
 
