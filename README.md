@@ -1,6 +1,6 @@
-**CAPSTONE PROJECT**
+## **CAPSTONE PROJECT**
 
-**Wireless Inventory Number Management**
+# **Wireless Inventory Number Management**
 
 (Software Requirements Specification)
 
@@ -41,7 +41,7 @@
 ||<p>10\.1. Deployment Architecture</p><p>10\.2. Deployment Instruction</p>|
 
 
-**1. Introduction**
+ ## **1. Introduction**
 
 **1.1 Purpose**
 
@@ -59,7 +59,7 @@ For clarity, here are some key definitions:
 - MSISDN (Mobile Station International Subscriber Directory Number): A mobile phone number within the global cellular network, used to route calls and messages.
 - IMEI (International Mobile Equipment Identity): A globally unique identifier assigned to mobile devices, crucial for device identification and tracking.
 
-**2. System Description**
+ ## **2. System Description**
 
 **2.1 System Overview**
 
@@ -68,8 +68,6 @@ The system consists of two primary components: a backend developed using Java Sp
 **2.2 System Architecture**
 
 The system follows a client-server architecture with a RESTful API, facilitating seamless communication between the frontend and backend components
-
-.
 
 **2.3 Data Flow**
 
@@ -82,7 +80,7 @@ The system's data flow begins with user input through the frontend. This data is
 - Frontend: React.js
 - Database: MySQL (MySQLdatabase technology)
 
-**3. Functional Requirements**
+## **3. Functional Requirements**
 
 **3.1 Use Cases**
 
@@ -92,7 +90,7 @@ The system encompasses several essential functionalities, including:
 - Allocation to Customers: When numbers are allocated to customers, the system will associate ICCID with the corresponding MSISDN and IMEI.
 - Tracking and Availability: The system diligently tracks reservation dates and monitors the availability of numbers, aiding users in making informed decisions regarding number allocation.
 
-**4. Non-Functional Requirements**
+## **4. Non-Functional Requirements**
 
 **4.1 Performanc**e
 
@@ -140,19 +138,19 @@ The system will ensure compatibility as follows:
 
 Cross-Browser Compatibility: The frontend will be designed to function seamlessly across different web browsers, providing a consistent experience to all users.
 
-**5. User Interface Design**
+## **5. User Interface Design**
 
 - The user interface will prioritize simplicity and user-friendliness. It will include:
 - Simple Forms: The UI will incorporate straightforward forms for number reservation.
 - Intuitive Layout: The layout will be designed with user intuitiveness in mind, enhancing the tracking of reservations.
 
-**6. Data Model**
+## **6. Data Model**
 
 The data model will consist of key entities for ICCID, MSISDN, and IMEI, securely stored within the chosen database system.
 
 Need to add ER image from database
 
-**7. API Specification**
+## **7. API Specification**
 
 The system will define RESTful API endpoints with specifications covering:
 
@@ -160,7 +158,7 @@ The system will define RESTful API endpoints with specifications covering:
 - Association: APIs will enable the association of ICCID with corresponding MSISDN and IMEI.
 - Availability Checks: Endpoints for checking the availability of numbers will also be included.
 
-**8. Security**
+## **8. Security**
 
 Security measures will be implemented, including:
 
@@ -170,7 +168,7 @@ Security measures will be implemented, including:
 
 -Data Encryption: Sensitive data transmission will be encrypted to protect against unauthorized access.
 
-**9. Testing**
+## **9. Testing**
 
 A comprehensive testing strategy will be employed, encompassing the following:
 
@@ -178,14 +176,14 @@ A comprehensive testing strategy will be employed, encompassing the following:
 - Integration Testing: Verification of interactions between different system components.
 - User Acceptance Testing: Evaluation of the system's compliance with user requirements and expectations.
 
-**10. Deployment**
+## **10. Deployment**
 
 Deployment of the system will involve the following:
 
 - Deployment Architecture: The architecture for deploying the backend and frontend in a production environment will be determined.
 - Deployment Instructions: Detailed instructions will be provided to guide the deployment process, ensuring successful implementation.
 
-**Data Encryption**
+## **Data Encryption**
 
 To ensure the confidentiality of sensitive data transmitted between the frontend and backend components, the system will employ data encryption.
 
@@ -206,37 +204,40 @@ To get started with the Wireless Inventory Number Management system, follow thes
 
 Contributions to this project are welcome. Please follow the contribution guidelines provided in the repository.
 
+
 ## FAQ :  Essential to ask questions that helps clarify the project requirements
 
-What is the main goal of the web project?
-What problem or need does it address?
-What are the expected outcomes or deliverables?
+**Project Objective:**
 
-## Target Audience:
+1. What is the main goal of the web project?
+2. What problem or need does it address?
+3. What are the expected outcomes or deliverables?
+
+**Target Audience:**
 Do we have user personas or profiles to consider?
 
-## Functionality and Features:
+**Functionality and Features:**
 
-What specific features and functionality should the website have?
-Are there any interactive elements(both external & on server) or special requirements?
+1. What specific features and functionality should the website have?
+2. Are there any interactive elements(both external & on server) or special requirements?
 
-## Content and Information:
+**Content and Information:**
 
-What content and information should be included on the website?
-Is content provided, or should it be created?
+1. What content and information should be included on the website?
+2. Is content provided, or should it be created?
 
-## Design and User Experience:
+**Design and User Experience:**
 
-Are there any design preferences or brand guidelines to follow?
-How should the user experience be optimized for the target audience?
+1. Are there any design preferences or brand guidelines to follow?
+2. How should the user experience be optimized for the target audience?
 
-## Hosting and Domain:
+**Hosting and Domain:**
 
-Have hosting and domain considerations been made?
-Should the website be hosted on a specific platform?
+1. Have hosting and domain considerations been made?
+2. Should the website be hosted on a specific platform?
 
-## Security and Privacy:
+**Security and Privacy:**
 
-What security measures need to be in place to protect user data?
-Are there privacy regulations to comply with?
+1. What security measures need to be in place to protect user data?
+2. Are there privacy regulations to comply with?
 
