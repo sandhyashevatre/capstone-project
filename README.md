@@ -206,16 +206,37 @@ To get started with the Wireless Inventory Number Management system, follow thes
 
 Contributions to this project are welcome. Please follow the contribution guidelines provided in the repository.
 
+## FAQ :  Essential to ask questions that helps clarify the project requirements
 
+What is the main goal of the web project?
+What problem or need does it address?
+What are the expected outcomes or deliverables?
 
-Q &A Part : 
+## Target Audience:
+Do we have user personas or profiles to consider?
 
+## Functionality and Features:
 
+What specific features and functionality should the website have?
+Are there any interactive elements(both external & on server) or special requirements?
 
+## Content and Information:
 
+What content and information should be included on the website?
+Is content provided, or should it be created?
 
+## Design and User Experience:
 
+Are there any design preferences or brand guidelines to follow?
+How should the user experience be optimized for the target audience?
 
+## Hosting and Domain:
 
+Have hosting and domain considerations been made?
+Should the website be hosted on a specific platform?
 
+## Security and Privacy:
+
+What security measures need to be in place to protect user data?
+Are there privacy regulations to comply with?
 
