@@ -1,119 +1,219 @@
-# Wireless Inventory Number Management
+**CAPSTONE PROJECT**
 
-## Project Overview
+**Wireless Inventory Number Management**
 
-The Wireless Inventory Number Management system is a comprehensive solution for managing ICCID, MSISDN, and IMEI numbers in wireless networks. It offers features for tracking, reserving, and allocating numbers, with the primary goal of simplifying inventory management for wireless service providers.
+(Software Requirements Specification)
 
-# Table of Contents
+**9th-Oct-2023**
+**
 
-| Section                   | Subsection                  |
-|---------------------------|-----------------------------|
-| [Introduction](#1-introduction) |                             |
-|                           | [1.1. Purpose](#11-purpose)  |
-|                           | [1.2. Scope](#12-scope)      |
-| [System Description](#2-system-description) | |
-|                           | [2.1. System Overview](#21-system-overview) |
-|                           | [2.2. System Architecture](#22-system-architecture) |
-|                           | [2.3. Data Flow Diagram](#23-data-flow-diagram) |
-|                           | [2.4. Technology Stack](#24-technology-stack) |
-| [Functional Requirements](#3-functional-requirements) | |
-|                           | [3.1. Use Case 1](#31-use-case-1) |
-|                           | [3.2. Use Case 2](#32-use-case-2) |
-| [Non-Functional Requirements](#4-non-functional-requirements) | |
-|                           | [4.1. Performance Requirements](#41-performance-requirements) |
-|                           | [4.2. Security Requirements](#42-security-requirements) |
-|                           | [4.3. User Interface Requirements](#43-user-interface-requirements) |
-|                           | [4.4. Database Requirements](#44-database-requirements) |
-|                           | [4.5. Compatibility Requirements](#45-compatibility-requirements) |
-| [User Interface Design](#5-user-interface-design) | |
-|                           | [5.1. Wireframes](#51-wireframes) |
-|                           | [5.2. Mockups](#52-mockups) |
-| [Data Model](#6-data-model) | |
-|                           | [6.1. Entity-Relationship Diagram](#61-entity-relationship-diagram) |
-|                           | [6.2. Database Schema](#62-database-schema) |
-| [API Specification](#7-api-specification) | |
-|                           | [7.1. API Endpoints](#71-api-endpoints) |
-|                           | [7.2. Data Formats](#72-data-formats) |
-|                           | [7.3. Authentication and Authorization](#73-authentication-and-authorization) |
-| [Security](#8-security) | |
-|                           | [8.1. Authentication](#81-authentication) |
-|                           | [8.2. Authorization](#82-authorization) |
-|                           | [8.3. Data Encryption](#83-data-encryption) |
-| [Testing](#9-testing) | |
-|                           | [9.1. Unit Testing](#91-unit-testing) |
-|                           | [9.2. Integration Testing](#92-integration-testing) |
-|                           | [9.3. User Acceptance Testing](#93-user-acceptance-testing) |
-| [Deployment](#10-deployment) | |
-|                           | [10.1. Deployment Architecture](#101-deployment-architecture) |
-|                           | [10.2. Deployment Instruction](#102-deployment-instruction) |
+**Submitted to: Aruvi**    
+**
 
 
-## System Description
+` `**Submitted by: Sandhya Shevatre**
 
-The system is comprised of a Java Spring Boot backend and a React.js frontend, following a client-server architecture. It enables users to reserve and manage wireless numbers efficiently, including associating ICCID with MSISDN and IMEI when allocating to customers.
 
-## Technology Stack
+`   `**Prodapt  University, Hyderabad**
+**
 
-- **Backend:** Java 11, Spring Boot 2.7.13
-- **Frontend:** React.js
-- **Database:** MySQL 
 
-## Functional Requirements
+**Table of Contents**
 
-The system includes functionalities like:
-- Reserving ICCID, MSISDN, and IMEI numbers.
-- Associating ICCID with MSISDN and IMEI during allocation.
-- Tracking reservation dates and number availability.
 
-## Non-Functional Requirements
+|1|Introduction|
+| :- | :- |
+||<p>1\.1. Purpose</p><p>1\.2. Scope</p>|
+|2|System Description|
+||<p>2\.1. System Overview</p><p>2\.2. System Architecture</p><p>2\.3. Data Flow Diagram</p><p>2\.4. Technology Stack</p>|
+|3|Functional Requirements|
+||<p>3\.1. Use Case 1</p><p>3\.2. Use Case 2</p>|
+|4|Non-Functional Requirements|
+||<p>4\.1. Performance Requirements</p><p>4\.2. Security Requirements</p><p>4\.3. User Interface Requirements</p><p>4\.4. Database Requirements</p><p>4\.5. Compatibility Requirements</p>|
+|5|User Interface Design|
+||<p>5\.1. Wireframes</p><p>5\.2. Mockups</p>|
+|6|Data Model|
+||<p>6\.1. Entity-Relationship Diagram</p><p>6\.2. Database Schema</p><p></p>|
+|7|API Specification|
+||<p>7\.1. API Endpoints</p><p>7\.2. Data Formats</p><p>7\.3. Authentication and Authorization</p>|
+|8|Security|
+||<p>8\.1. Authentication</p><p>8\.2. Authorization</p><p>8\.3. Data Encryption</p>|
+|9|Testing|
+||<p>9\.1. Unit Testing</p><p>9\.2. Integration Testing</p><p>9\.3. User Acceptance Testing</p>|
+|10|Deployment|
+||<p>10\.1. Deployment Architecture</p><p>10\.2. Deployment Instruction</p>|
 
-- **Performance:** The system is optimized for responsiveness, ensuring minimal latency.
-- **Security:** Stringent security measures are in place, including JWT-based authentication and data encryption.
-- **User Interface:** The user interface is designed to be user-friendly and responsive.
-- **Database:** The chosen database technology ensures data security and efficiency.
-- **Compatibility:** The frontend is designed for cross-browser compatibility.
 
-## Security
 
-### Authentication and Authorization
 
-The system employs JSON Web Tokens (JWT) for user authentication and authorization. It includes JWT-based authentication, user credentials, token expiry, role-based access control (RBAC), authorization claims, and resource protection.
 
-### Data Encryption
 
-All sensitive data is transmitted over secure, encrypted connections using HTTPS (SSL/TLS) protocols. End-to-end encryption ensures that unauthorized access is nearly impossible.
 
-## User Interface Design
 
-The user interface focuses on simplicity and user-friendliness, featuring simple forms for number reservation and an intuitive layout for tracking reservations.
 
-## Database
 
-The system stores data securely in a MySQL database (or specify your preferred database technology).
 
-## API Specification
+**1. Introduction**
 
-The system defines RESTful API endpoints for reserving numbers, associating them, and checking availability.
+**1.1 Purpose**
 
-## Testing
+The purpose of this document is to outline the requirements for the development of the Wireless Inventory Number Management system. It focuses on defining both the functional and non-functional aspects necessary for successful system implementation.
 
-A comprehensive testing strategy includes unit testing, integration testing, and user acceptance testing.
+**1.2 Scope**
 
-## Deployment
+The system is designed to manage ICCID, MSISDN, and IMEI numbers in wireless networks. This encompasses the tracking, reservation, and allocation of these numbers, with the primary aim of benefiting wireless service providers by streamlining their inventory management processes.
 
-Deployment instructions will guide the deployment of the backend and frontend components in a production environment.
+**1.3 Definitions**
 
-## Getting Started
+For clarity, here are some key definitions:
 
-To get started with the Wireless Inventory Number Management system, follow these steps:
-1. Clone the repository.
-2. Set up the backend according to the provided instructions.
-3. Set up the frontend and configure the connection to the backend.
-4. Deploy the system as per the deployment instructions.
+- ICCID (Integrated Circuit Card Identifier): A unique identifier associated with SIM cards, vital for their identification and functionality.
+- MSISDN (Mobile Station International Subscriber Directory Number): A mobile phone number within the global cellular network, used to route calls and messages.
+- IMEI (International Mobile Equipment Identity): A globally unique identifier assigned to mobile devices, crucial for device identification and tracking.
 
-## Contributing
+**2. System Description**
 
-Contributions to this project are welcome. Please follow the contribution guidelines provided in the repository.
+**2.1 System Overview**
+
+The system consists of two primary components: a backend developed using Java Spring Boot and a frontend built with React.js. Together, they provide the capability for users to efficiently reserve and manage wireless numbers.
+
+**2.2 System Architecture**
+
+The system follows a client-server architecture with a RESTful API, facilitating seamless communication between the frontend and backend components
+
+.
+
+**2.3 Data Flow**
+
+The system's data flow begins with user input through the frontend. This data is then processed in the backend, where it undergoes various operations. Subsequently, the processed results are relayed back to the frontend for display.
+
+**2.4 Technology Stack**
+
+- The system's technology stack comprises the following key components:
+- Backend: Java 11, Spring Boot 2.7.13
+- Frontend: React.js
+- Database: MySQL (MySQLdatabase technology)
+
+**3. Functional Requirements**
+
+**3.1 Use Cases**
+
+The system encompasses several essential functionalities, including:
+
+- Reservation of Numbers: Users can reserve ICCID, MSISDN, and IMEI numbers, ensuring their availability for future use.
+- Allocation to Customers: When numbers are allocated to customers, the system will associate ICCID with the corresponding MSISDN and IMEI.
+- Tracking and Availability: The system diligently tracks reservation dates and monitors the availability of numbers, aiding users in making informed decisions regarding number allocation.
+
+**4. Non-Functional Requirements**
+
+**4.1 Performanc**e
+
+The system's performance expectations include:
+
+Responsiveness: The system should exhibit responsiveness, ensuring that actions such as number reservation are carried out with minimal latency.
+
+**4.2 Security**
+
+Security is of paramount importance in the Wireless Inventory Number Management system. It encompasses several measures to safeguard sensitive data and control access to the system effectively.
+
+***Authentication and Authorization***
+
+Authentication and authorization mechanisms will be implemented to ensure that users have controlled access to the system. This is achieved through the use of JSON Web Tokens (JWT), which provide a secure and efficient means of user authentication and authorization.
+
+**Authentication:**
+
+- JWT-Based Authentication: The system will employ JWT-based authentication to verify the identity of users during login. Upon successful authentication, the system will issue a JWT token to the user.
+- User Credentials: Users will be required to provide valid credentials, typically a username and password, during login.
+- Token Expiry: JWT tokens will have a predefined expiry time, after which they will need to be renewed or reacquired.
+
+**Authorization:**
+
+- Role-Based Access Control (RBAC): The system will adopt Role-Based Access Control, where users are assigned specific roles (e.g., admin, regular user). These roles determine the level of access a user has within the system.
+- Authorization Claims: JWT tokens will contain claims or attributes specifying a user's role and permissions. The system will use these claims to enforce access control policies.
+- Resource Protection: Authorization rules will be in place to protect sensitive resources, ensuring that users can only access data and perform actions for which they have the appropriate permissions.
+
+**4.3 User Interface**
+
+The user interface design will adhere to the following criteria:
+
+- User-Friendly Design: The user interface will be intuitively designed for ease of use.
+- Responsiveness: The interface will be responsive to various screen sizes and devices, ensuring a consistent user experience.
+
+**4.4 Database**
+
+The system's database requirements encompass the following:
+
+Database Technology: The choice of database technology (e.g., MySQL) will be made with data security and efficiency in mind.
+
+**4.5 Compatibility**
+
+The system will ensure compatibility as follows:
+
+Cross-Browser Compatibility: The frontend will be designed to function seamlessly across different web browsers, providing a consistent experience to all users.
+
+**5. User Interface Design**
+
+- The user interface will prioritize simplicity and user-friendliness. It will include:
+- Simple Forms: The UI will incorporate straightforward forms for number reservation.
+- Intuitive Layout: The layout will be designed with user intuitiveness in mind, enhancing the tracking of reservations.
+
+**6. Data Model**
+
+The data model will consist of key entities for ICCID, MSISDN, and IMEI, securely stored within the chosen database system.
+
+Need to add ER image from database
+
+**7. API Specification**
+
+The system will define RESTful API endpoints with specifications covering:
+
+- Reserving Numbers: API endpoints will be provided for reserving ICCID, MSISDN, and IMEI numbers.
+- Association: APIs will enable the association of ICCID with corresponding MSISDN and IMEI.
+- Availability Checks: Endpoints for checking the availability of numbers will also be included.
+
+**8. Security**
+
+Security measures will be implemented, including:
+
+Authentication: Users will be required to authenticate themselves before accessing the system.
+
+Authorization: Authorization mechanisms will control user access based on defined roles and permissions.
+
+Data Encryption: Sensitive data transmission will be encrypted to protect against unauthorized access.
+
+**9. Testing**
+
+A comprehensive testing strategy will be employed, encompassing the following:
+
+- Unit Testing: Testing of individual components, ensuring their functionality in isolation.
+- Integration Testing: Verification of interactions between different system components.
+- User Acceptance Testing: Evaluation of the system's compliance with user requirements and expectations.
+
+**10. Deployment**
+
+Deployment of the system will involve the following:
+
+- Deployment Architecture: The architecture for deploying the backend and frontend in a production environment will be determined.
+- Deployment Instructions: Detailed instructions will be provided to guide the deployment process, ensuring successful implementation.
+
+**Data Encryption**
+
+To ensure the confidentiality of sensitive data transmitted between the frontend and backend components, the system will employ data encryption.
+
+- Secure Communication: All data transferred between the frontend and backend will be transmitted over secure, encrypted connections using HTTPS (SSL/TLS) protocols.
+- End-to-End Encryption: Sensitive information, such as user credentials and authentication tokens, will be encrypted before transmission, making it nearly impossible for unauthorized parties to intercept or decipher the data in transit.
+- These security measures, including JWT-based authentication and data encryption, will be implemented rigorously to safeguard user data and protect the integrity and security of the Wireless Inventory Number Management system.
+
+
+
+Q &A Part : 
+
+
+
+
+
+
+
 
 
 
